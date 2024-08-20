@@ -25,7 +25,7 @@ jobs:
     - name: Build Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: onyeechris/time-api
+        image: techspawn2000/shortlet-time-api-job
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}

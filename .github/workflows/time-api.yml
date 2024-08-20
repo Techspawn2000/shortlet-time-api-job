@@ -56,7 +56,7 @@ jobs:
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
 
-      - name: Install gke-gcloud-auth-plugin
+      - name: Install gke-gcloud-auth-plugin 
         run: |
           gcloud components update
           gcloud components install gke-gcloud-auth-plugin

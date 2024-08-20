@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: api-container
-      image: onyeechris/time-api:latest
+      image: techspawn2000/shortlet-time-api-job:latest
       ports:
         - containerPort: 3000

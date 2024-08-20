@@ -22,7 +22,7 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     
-    - name: Build Docker Image3
+    - name: Build Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: onyeechris/time-api
